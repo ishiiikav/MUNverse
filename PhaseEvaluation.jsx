@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { callClaude } from '../../utils/api.js';
+import { callClaude } from './api.js';
 
 const LOADING_STAGES = [
   'Analysing position papers...',
