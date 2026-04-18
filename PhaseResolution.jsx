@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Timer from '../Timer.jsx';
-import { callClaude } from '../../utils/api.js';
+import Timer from './Timer.jsx';
+import { callClaude } from './api.js';
 
 /**
  * PhaseResolution — Draft Protocol
