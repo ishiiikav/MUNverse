@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { COMMITTEES, AGENDA } from '../../data/committees.js';
+import { COMMITTEES, AGENDA } from './committees.js';
 
 /**
  * PhaseAssignment — Mission Briefing
