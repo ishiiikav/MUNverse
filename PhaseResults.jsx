@@ -1,4 +1,4 @@
-import { COUNTRIES } from '../../data/countries.js';
+import { COUNTRIES } from './countries.js';
 
 const AWARD_TITLES = [
   'Best Delegate',
