@@ -1,4 +1,4 @@
-import { PHASES, PHASE_META } from '../data/phases.js';
+import { PHASES, PHASE_META } from './phases.js';
 
 /**
  * Navbar
