@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { callClaude } from '../../utils/api.js';
+import { callClaude } from './api.js';
 
 const MAX_ROUNDS = 2;
 
