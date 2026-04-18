@@ -1,18 +1,18 @@
 import { useState } from 'react';
 
-import { COUNTRIES }        from './data/countries.js';
-import { AI_NAMES, PHASES } from './data/phases.js';
+import { COUNTRIES }        from './countries.js';
+import { AI_NAMES, PHASES } from './phases.js';
 
-import StarField         from './components/StarField.jsx';
-import Navbar            from './components/Navbar.jsx';
-import PhaseAssignment   from './components/phases/PhaseAssignment.jsx';
-import PhaseResearch     from './components/phases/PhaseResearch.jsx';
-import PhaseDebate       from './components/phases/PhaseDebate.jsx';
-import PhaseResolution   from './components/phases/PhaseResolution.jsx';
-import PhaseEvaluation   from './components/phases/PhaseEvaluation.jsx';
-import PhaseResults      from './components/phases/PhaseResults.jsx';
+import StarField         from './StarField.jsx';
+import Navbar            from './Navbar.jsx';
+import PhaseAssignment   from './PhaseAssignment.jsx';
+import PhaseResearch     from './PhaseResearch.jsx';
+import PhaseDebate       from './PhaseDebate.jsx';
+import PhaseResolution   from './PhaseResolution.jsx';
+import PhaseEvaluation   from './PhaseEvaluation.jsx';
+import PhaseResults      from './PhaseResults.jsx';
 
-import './styles/global.css';
+import './global.css';
 
 /**
  * App — Root component and simulation state machine.
